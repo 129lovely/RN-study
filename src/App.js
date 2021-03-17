@@ -1,22 +1,12 @@
 import React from 'react';
-import {View, StyleSheet, Text, Button, Pressable} from 'react-native';
-
-const showMeYourName = p => {
-  if (p === 'mj') {
-    return 'last name';
-  } else if (p === 'b') {
-    return 'first name';
-  } else {
-    return 'my name is bmj';
-  }
-};
+import {View, StyleSheet, Text} from 'react-native';
+import Counter from './Counter';
 
 const App = () => {
-  const p = 'helllllo';
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>이얏호</Text>
-      <Button title="버튼ㄴ이다" onPress={() => alert('click')} />
+      <Text style={styles.text}>내 버튼 컴포넌트</Text>
+      <Counter />
     </View>
   );
 };

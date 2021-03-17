@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community",
+    "prettier",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ]
+}
