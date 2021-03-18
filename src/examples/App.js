@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
-import EventButton from './components/EventButton';
-import EventInput from './components/EventInput';
-import PressableButton from './components/PressableButton';
+import {View} from 'react-native';
+// import EventButton from './components/EventButton';
+// import EventInput from './components/EventInput';
+// import PressableButton from './components/PressableButton';
 import {Header, Contents, Footer} from './components/Layout';
 import ShadowBox from './components/ShadowBox';
-import {viewStyles, textStyles} from './styles';
+import {viewStyles} from './styles';
 
 const App = () => {
   return (
@@ -23,17 +23,17 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#ffffff',
-  },
-  text: {
-    fontSize: 30,
-    marginBottom: 10,
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#ffffff',
+//   },
+//   text: {
+//     fontSize: 30,
+//     marginBottom: 10,
+//   },
+// });
 
 export default App;
